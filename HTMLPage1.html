@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" ng-app="myModule">
+<head>
+    <meta charset="utf-8" />
+	<script src="Scripts/angular.min.js"></script>
+	<script src="Scripts/Script.js"></script>
+    <title></title>
+</head>
+<body ng-controller="myController"> 
+	<input type="text" ng-model="message" />
+	<h2>{{ message }}</h2>
+	<br></br>
+	<h2> {{ number }} </h2>
+	<input type="button" value="Incrementally Increase" ng-click="incrementNumber()">
+</body>
+</html>
